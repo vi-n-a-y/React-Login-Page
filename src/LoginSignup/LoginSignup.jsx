@@ -27,6 +27,15 @@ export const LoginSignup = () => {
                 <img src={password_icon} alt="password icon" />
                 <input type="password"  placeholder="password"/>
             </div>
+            {action=="Login"?<div></div>:<div className="input">
+                {/* <img src={user_icon} alt="user icon" /> */}
+                <input type="text" placeholder="Phone Number"/>
+            </div>}
+            {action=="Login"?<div></div>:<div className="input">
+                {/* <img src={user_icon} alt="user icon" /> */}
+                <input type="text" placeholder="Address"/>
+            </div>}
+            
             </div>
             {action==="Sign Up"?<div></div>:<div className="forgot-password">forgot password ?<span>Click Here</span></div>}
            <div className="submit-container">
