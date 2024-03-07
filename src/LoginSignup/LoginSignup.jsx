@@ -31,8 +31,7 @@ export const LoginSignup = () => {
                 {/* <img src={user_icon} alt="user icon" /> */}
                 <input type="text" placeholder="Phone Number"/>
             </div>}
-            {action=="Login"?<div></div>:<div className="input">
-                {/* <img src={user_icon} alt="user icon" /> */}
+            {action=="Login"?<div></div>:<div className="input">             
                 <input type="text" placeholder="Address"/>
             </div>}
             
